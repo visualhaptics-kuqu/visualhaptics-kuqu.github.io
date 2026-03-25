@@ -65,7 +65,7 @@ Validate the proposed framework on terrestrial and underwater robotic platforms,
 ## Contact Information
 
 - **Project:** Visual-Haptics for Remote Robot Operation, Inspection & Physical Intervention
-- **Collaboration:** Khalifa University (KU) – Qatar University (QU)
+- **Collaboration:** Khalifa University (KU) - Qatar University (QU)
 - **Institution:** Center for Autonomous Robotic Systems, Khalifa University
 - **Location:** Abu Dhabi, United Arab Emirates
 ---
