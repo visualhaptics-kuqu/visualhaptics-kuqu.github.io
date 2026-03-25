@@ -37,7 +37,7 @@ Investigate predictive control strategies for obstacle avoidance, safe maneuveri
 Evaluate both system performance and operator experience through controlled experiments measuring task completion, accuracy, workload, usability, and perceived presence.
 
 ### 🌐 O4. Cross-Domain Validation
-Validate the proposed framework on terrestrial and underwater robotic platforms, advancing the system from laboratory prototype toward relevant-environment testing at **TRL 4–6**.
+Validate the proposed framework on terrestrial and underwater robotic platforms, advancing the system from laboratory prototype toward relevant-environment testing at **TRL 4-6**.
 
 ---
 
