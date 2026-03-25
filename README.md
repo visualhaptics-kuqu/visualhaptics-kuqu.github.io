@@ -15,7 +15,7 @@ A joint research initiative between **Khalifa University (KU)** and **Qatar Univ
 
 ## Project Summary
 
-This project aims to advance a **visual-haptic teleoperation framework** from laboratory prototype toward validation in **real-world scenarios**, targeting **Technology Readiness Levels (TRL) 4–6)**. The framework integrates **multimodal visual-haptic feedback**, **predictive safety control**, and **immersive XR interaction** to improve remote robot operation for **inspection**, **physical intervention**, and **navigation assistance**.
+This project aims to advance a **visual-haptic teleoperation framework** from laboratory prototype toward validation in **real-world scenarios**, targeting **Technology Readiness Levels (TRL) 4-6)**. The framework integrates **multimodal visual-haptic feedback**, **predictive safety control**, and **immersive XR interaction** to improve remote robot operation for **inspection**, **physical intervention**, and **navigation assistance**.
 
 Remote robotic operation in extreme and semi-structured environments is often limited by insufficient operator feedback, uncertain maneuvering conditions, reduced contact awareness, and incomplete situational understanding. Conventional visual-only teleoperation interfaces frequently fall short in scenarios where precise interaction, safe motion, and reliable task execution are essential.
 
