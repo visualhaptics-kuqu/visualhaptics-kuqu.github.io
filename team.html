@@ -51,68 +51,15 @@
     <section class="section">
       <div class="container">
         <h2>Team Composition</h2>
-
-        <div class="grid grid-2">
-          <div>
-            <div class="university-heading">
-              <img src="assets/img/logos/ku_logo.png" alt="Khalifa University logo" class="university-logo" />
-              <h3>Khalifa University (KU)</h3>
-            </div>
-
-            <div class="team-member card">
-              <img src="assets/img/team/DJ.png" alt="Prof. Jorge Dias" class="team-photo" />
-
-              <div class="team-main">
-                <h4>
-                  <a href="https://jorgedias.eu/" target="_blank" rel="noopener noreferrer">
-                    Prof. Jorge Dias
-                  </a>
-                </h4>
-                <p>
-                  <strong>Professor | Acting Center Director, Center for Robotics and Autonomous Systems |
-                  Deputy Director, Computer and Information Engineering</strong>
-                </p>
-              </div>
-
-              <p class="team-bio">
-                Jorge Dias is a Professor at Khalifa University in Abu Dhabi, UAE, where he leads research and academic activities in Autonomous Robotic Systems. He also serves as Deputy Director of the Center for Autonomous Robotic Systems (KUCARS).
-He received his Ph.D. and Habilitation (Doctor of Science/Agregação) in Electrical Engineering from the University of Coimbra, Portugal. His research focuses on Artificial Perception, Computer Vision, and Robotic Vision, with contributions to the field since 1984. Professor Dias pioneered the integration of multisensing and multimodal approaches in Artificial Perception, including Visual–Inertial sensing (2006–2007) and Visual–Auditory sensing (2008). His work also includes cognitive models for robotics using Bayesian frameworks for multimodal perception, with applications in active attention, navigation, and multi-robot cooperation. His book Probabilistic Approaches for Robotic Perception (2014) presents foundational work on Bayesian methods for computational intelligence.His recent research explores Neuromorphic Computing for Artificial Intelligence and Artificial Perception (2023–2024). He has led several international research projects in Europe and the Middle East and has authored over 370 scientific publications.
-
-              </p>
-            </div>
-          </div>
-
-          <div>
-            <div class="university-heading">
-              <img src="assets/img/logos/qu_logo.png" alt="Qatar University logo" class="university-logo" />
-              <h3>Qatar University (QU)</h3>
-            </div>
-
-            <div class="team-member card">
-              <img src="assets/img/team/qu_coi.jpg" alt="Dr. Osama Halabi" class="team-photo" />
-
-              <div class="team-main">
-                <h4>
-                  <a href="https://osama-halabi" target="_blank" rel="noopener noreferrer">
-                    Dr. Osama Halabi
-                  </a>
-                </h4>
-                <p><strong>Affiliation:</strong> Qatar University</p>
-              </div>
-
-              <p class="team-bio">
-                
-              </p>
-            </div>
-          </div>
-        </div>
+        <div id="team-container" class="grid grid-2"></div>
       </div>
     </section>
+  </main>
 
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
-        <h3>Visual-Haptics for Remote Robot Operation, Inspection & Physical Intervention</h3>
+        <h3>Visual-Haptics for Remote Robot Operation, Inspection &amp; Physical Intervention</h3>
         <p>Advancing multimodal teleoperation for safe robotic inspection and physical intervention in challenging environments.</p>
       </div>
       <div>
@@ -139,6 +86,92 @@ He received his Ph.D. and Habilitation (Doctor of Science/Agregação) in Electr
       <p>© 2026 Visual-Haptics Project. All rights reserved.</p>
     </div>
   </footer>
+
+  <script>
+    function escapeHtml(text) {
+      const div = document.createElement("div");
+      div.textContent = text ?? "";
+      return div.innerHTML;
+    }
+
+    function renderMember(member, index) {
+      const safeName = escapeHtml(member.name);
+      const safeWebsite = escapeHtml(member.website || "#");
+      const safePhoto = escapeHtml(member.photo);
+      const safePhotoAlt = escapeHtml(member.photoAlt || member.name);
+      const safeTitle = escapeHtml(member.title || "");
+
+      const bioParagraphs = Array.isArray(member.bio)
+        ? member.bio.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("")
+        : `<p>${escapeHtml(member.bio || "")}</p>`;
+
+      const bioId = `team-bio-${index}`;
+
+      return `
+        <div class="team-member card">
+          <img src="${safePhoto}" alt="${safePhotoAlt}" class="team-photo" />
+
+          <div class="team-main">
+            <h4>
+              <a href="${safeWebsite}" target="_blank" rel="noopener noreferrer">
+                ${safeName}
+              </a>
+            </h4>
+            <p><strong>${safeTitle}</strong></p>
+          </div>
+
+          <div class="team-bio-wrapper">
+            <div class="team-bio collapsed" id="${bioId}">
+              ${bioParagraphs}
+            </div>
+            <button class="read-more-btn" type="button" onclick="toggleBio('${bioId}', this)">
+              Read more
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderUniversity(group, groupIndex) {
+      const safeUniversity = escapeHtml(group.university);
+      const safeLogo = escapeHtml(group.logo);
+      const safeLogoAlt = escapeHtml(group.logoAlt || `${group.university} logo`);
+
+      return `
+        <div>
+          <div class="university-heading">
+            <img src="${safeLogo}" alt="${safeLogoAlt}" class="university-logo" />
+            <h3>${safeUniversity}</h3>
+          </div>
+
+          ${(group.members || []).map((member, memberIndex) =>
+            renderMember(member, `${groupIndex}-${memberIndex}`)
+          ).join("")}
+        </div>
+      `;
+    }
+
+    function toggleBio(bioId, button) {
+      const bio = document.getElementById(bioId);
+      if (!bio) return;
+      bio.classList.toggle("collapsed");
+      button.textContent = bio.classList.contains("collapsed") ? "Read more" : "Read less";
+    }
+
+    document.addEventListener("DOMContentLoaded", async () => {
+      const teamContainer = document.getElementById("team-container");
+      if (!teamContainer) return;
+
+      try {
+        const response = await fetch("data/team.json");
+        const teamData = await response.json();
+        teamContainer.innerHTML = teamData.map((group, groupIndex) => renderUniversity(group, groupIndex)).join("");
+      } catch (error) {
+        console.error("Failed to load team.json:", error);
+        teamContainer.innerHTML = "<p>Unable to load team information.</p>";
+      }
+    });
+  </script>
 
   <script src="assets/js/main.js"></script>
 </body>
