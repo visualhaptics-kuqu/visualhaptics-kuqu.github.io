@@ -1,0 +1,98 @@
+[
+  {
+    "university": "Khalifa University (KU)",
+    "logo": "assets/img/logos/ku_logo.png",
+    "logoAlt": "Khalifa University logo",
+    "members": [
+      {
+        "name": "Prof. Jorge Dias",
+        "website": "https://jorgedias.eu/",
+        "photo": "assets/img/team/DJ.png",
+        "photoAlt": "Prof. Jorge Dias",
+        "title": "Professor | Acting Center Director, Center for Robotics and Autonomous Systems | Deputy Director, Computer and Information Engineering",
+        "bio": [
+          "Jorge Dias is a Professor at Khalifa University in Abu Dhabi, UAE, where he leads research and academic activities in Autonomous Robotic Systems. He also serves as Deputy Director of the Center for Autonomous Robotic Systems (KUCARS).",
+          "He received his Ph.D. and Habilitation (Doctor of Science/Agregação) in Electrical Engineering from the University of Coimbra, Portugal. His research focuses on Artificial Perception, Computer Vision, and Robotic Vision, with contributions to the field since 1984.",
+          "Professor Dias pioneered the integration of multisensing and multimodal approaches in Artificial Perception, including Visual–Inertial sensing (2006–2007) and Visual–Auditory sensing (2008). His work also includes cognitive models for robotics using Bayesian frameworks for multimodal perception, with applications in active attention, navigation, and multi-robot cooperation.",
+          "His book Probabilistic Approaches for Robotic Perception (2014) presents foundational work on Bayesian methods for computational intelligence. His recent research explores Neuromorphic Computing for Artificial Intelligence and Artificial Perception (2023–2024). He has led several international research projects in Europe and the Middle East and has authored over 370 scientific publications."
+        ]
+      },
+      {
+        "name": "Dr. Hamad Karki",
+        "website": "https://www.ku.ac.ae/college-people/hamad-karki",
+        "photo": "assets/img/team/DH.jpg",
+        "photoAlt": "Dr. Hamad Karki",
+        "title": "Associate Professor | Mechanical & Nuclear Engineering",
+        "bio": [
+          "Dr. Hamad Karki is currently an Associate Professor at the department of the Mechanical Engineering Department at Khalifa University. His Bachelors, Masters and PhD degrees are from Tokyo University of Technology and are in Mechatronics Engineering, System Electronic Engineering and Engineering respectively. He joined the faculty of Mechanical Engineering Khalifa University (former the Petroleum Institute) in 2008 as an assistant professor and assumed his duties in research, teaching and services.",
+          "Dr. Karki’s research interested is oriented around autonomous field robots, design and control, which includes vehicles and drones. He enjoys teaching his classes as well as mentoring senior design projects every year.",
+          "He served in many departmental and institutional committees as a member and a head. Dr Karki served as a director of the internship program to send interns to oil and gas related companies.",
+          "During his deanship of the college or arts and sciences, he initiated programs to support freshmen to be productive university students and developed the curriculum to enhance the learning process."
+        ]
+      },
+      {
+        "name": "Dr. Jaime Viegas",
+        "website": "https://www.ku.ac.ae/college-people/jaime-viegas",
+        "photo": "assets/img/team/DJV.jpg",
+        "photoAlt": "Dr. Jaime Viegas",
+        "title": "Associate Professor | Electrical Engineering",
+        "bio": [
+          "Dr. Jaime Viegas received his Ph.D. in Physics and M.Sc. in Optoelectronics and Lasers from the University of Porto, Portugal. He was one of the founding faculty members of the Microsystems Engineering Program at Masdar Institute having joined in 2010 after being deeply involved in developing the curricula and the labs for teaching and research in the fields of Photonics, Nanoscale Fabrication, and Thin Film Characterization.",
+          "From 2010-2011, Dr. Viegas was a visiting scholar at the Research Laboratory of Electronics (MIT), working in collaboration with Prof. Erich Ippen and Prof. Leslie Kolodziejski on the development of III-V infrared lasers. From 2015-2017, Dr. Viegas co-led, with Prof. Sang-Gook Kim (MIT), a Masdar Institute/MIT flagship project on \"Hot-electron full solar spectrum watersplitting\" and led a collaborative project with the Institute of Microelectronics of Singapore (IME) and GlobalFoundries Singapore on piezoelectric micromachined ultrasonic transducers (pMUTs).",
+          "From 2018-2020, Dr. Viegas led the KU/Semiconductor Research Center (SRC) Center of Excellency in Integrated Photonics, working closely with GlobalFoundries on developing the next generation of Silicon Photonics systems for high-bandwidth optical communications.",
+          "Currently, Dr. Viegas is an Associate Professor of the Department of Electrical Engineering and Computer Science at Khalifa University. His research topics cover Silicon Photonics, Optical Sensors, Fiber Optics Sensors, Digital Holography, Metamaterials Design and Fabrication, MEMS for Photoncis and Microfluidics integration and Advanced Lithography.",
+          "Dr. Viegas has co-authored 7 US patents."
+        ]
+      },
+      {
+        "name": "Dr. Vidya Sudevan",
+        "photo": "assets/img/team/DV.jpg",
+        "photoAlt": "Dr.Vidya Sudevan",
+        "title": "Post Doctoral Fellow | Computer and Information Engineering",
+        "bio": [
+          "Vidya Sudevan received the B.Tech. degree in Electrical and Electronics Engineering and the M.Tech. degree in Instrumentation and Control Systems from the University of Calicut, India, in 2012 and 2016, respectively. She obtained her Ph.D. in Engineering, with a concentration in Robotics, from Khalifa University, Abu Dhabi, United Arab Emirates, in 2025.",
+          "She is currently a Post Doctoral Fellow at Khalifa University, where she previously served as a Research Associate from 2016 to 2021. Her research focuses on neuromorphic computing, spiking neural networks, multimodal perception, and localization for robotic applications, with particular emphasis on operation in harsh and challenging environments. She has authored publications in peer-reviewed journals and conference proceedings in her field and serves as a reviewer for leading venues, including ICRA, IROS, RAL, ICAR, and ITU journals and conferences."
+        ]
+      }
+    ]
+  },
+  {
+    "university": "Qatar University (QU)",
+    "logo": "assets/img/logos/qu_logo.png",
+    "logoAlt": "Qatar University logo",
+    "members": [
+      {
+        "name": "Dr. Osama Halabi",
+        "website": "http://qufaculty.qu.edu.qa/ohalabi/research/",
+        "photo": "assets/img/team/DO.jpg",
+        "photoAlt": "Dr. Osama Halabi",
+        "title": "Associate Professor | Computer Science and Engineering",
+        "bio": [
+            "Dr. Osama Halabi has been active in academia for the last 21 years. Presently, he is working as an associate professor in the Department of Computer Science at Qatar University. Before joining Qatar University, Dr. Halabi has participated in various organizations in various capacities such as Fujitsu Endowed Chair (Fujitsu Co.,) at Japan Advanced Institute of Science and Technology from 2001 to 2003, a researcher in Virtual Systems Laboratory at Gifu University, Japan, from 2003 to 2006, assistant professor at Iwate University, Japan, from 2006 to 2010. ",
+            "He received an M.Sc. degree in computer science from Shanghai University, and a Ph.D. degree in Information Science from Japan Advanced Institute of Science and Technology (JAIST) in 1998, and 2001, respectively. His principal research interests include haptics, virtual reality (VR), augmented reality (AR), human-centered computing, robotics, interactive systems, laser graphics, and computer graphics. He has intensive experience in software development for haptic interfaces and virtual reality, especially for medical training and simulation. He developed many multimodal interactive systems that incorporated the sense of touch, smell, and heat. Dr. Halabi has participated in many QNRF and Qatar university research projects. Dr. Halabi was a recipient of many international awards for best research papers and many awards in prestigious technology completions such as the Microsoft Imagine Cup. He is a member of IEEE, ACM, Virtual Reality Society of Japan (VRSJ), and The Society for Art and Science in Japan."
+        ]
+      },
+      {
+        "name": "Dr. Mohammad Abdulaziz Al-Sada",
+        "website": "https://www.alsada.io/",
+        "photo": "assets/img/team/DM.jpg",
+        "photoAlt": "Dr. Mohammad Abdulaziz Al-Sada",
+        "title": "Assistant Professor | Computer Science and Engineering",
+        "bio": ["Dr. Mohammed Al-Sada is the director of KINDI computing research center, and the CEO of Qatar Mobility Innovation Center at Qatar University.",
+            "He received his Doctor of Engineering in Computer and Communications Engineering from Waseda University, Japan, in 2020. He previously completed a Master of Science in Computer Science and Engineering from Waseda University in 2015 and a Bachelor of Science in Computer Science and Engineering from Qatar University in 2009. He also obtained an Associate Certificate in Business Analysis from George Washington University in 2012 and completed Agile Project Management using SCRUM training at Learning Tree UK, London, in 2011.",
+            "He has more than 15 years of extensive research and development experience spanning over multiple key domains of existing and emerging technologies. It includes the design and development of industrial information systems, the human-centered design of augmented and virtual reality systems, wearable robotics, and humanoids for deployment in daily and industrial contexts."
+        ]
+      },
+      {
+        "name": "Dr. Faisal Ibrahim J J Al-Jaber",
+        "website": "https://www.qu.edu.qa/en-us/Colleges/engineering/academics/mie/Pages/faculty.aspx",
+        "photo": "assets/img/team/DF.jpg",
+        "photoAlt": "Dr. Faisal Ibrahim J J Al-Jaber",
+        "title": "Assistant Professor | Mechanical Engineering",
+        "bio": ["Dr. Faisal Ibrahim J. J. Al-Jaber is an Assistant Professor in the Department of Mechanical and Industrial Systems Engineering at Qatar University, where he has served in academic roles since 2013. He earned his Ph.D. in Medical Engineering from Queen Mary University of London in 2023, following earlier research degrees in medical robotics and image-guided intervention from Queen Mary and Imperial College London.",
+            "His expertise spans surgical robotics, classical robotics, non-linear hyper-redundant soft robot design and fabrication, eversion robots, optical sensor design, and 3D shape reconstruction. His research has contributed to projects on assistive telemanipulation systems and novel soft cylindrical actuators for surgical applications, and he has also received public recognition through robotics-related competitions and research leadership roles at Qatar University."
+        ]
+      }
+    ]
+  }
+]
