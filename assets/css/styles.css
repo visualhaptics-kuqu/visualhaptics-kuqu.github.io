@@ -236,10 +236,40 @@ a {
   margin: 0;
 }
 
-.team-bio {
+.team-bio-wrapper {
   grid-column: 1 / -1;
-  margin: 4px 0 0;
-  line-height: 1.6;
+  margin-top: 4px;
+}
+
+.team-bio {
+  line-height: 1.7;
+  text-align: justify;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.team-bio.collapsed {
+  max-height: 7.5em; /* about 4-5 lines depending on font */
+}
+
+.team-bio p {
+  margin: 0 0 12px;
+}
+
+.team-bio p:last-child {
+  margin-bottom: 0;
+}
+
+.read-more-btn {
+  margin-top: 10px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .team-member h4 a {
