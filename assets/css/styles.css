@@ -52,9 +52,15 @@ a {
 
 .topbar {
   background: #09101c;
-  color: rgba(255, 255, 255, 0.92);
+  color: #ffffff;
   font-size: 0.95rem;
   font-weight: 700;
+}
+
+.topbar p,
+.topbar a {
+  color: #ffffff;
+  margin: 0;
 }
 
 .topbar-inner {
