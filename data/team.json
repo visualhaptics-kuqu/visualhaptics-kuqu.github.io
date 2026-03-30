@@ -1,7 +1,7 @@
 [
   {
     "university": "Khalifa University (KU)",
-    "logo": "assets/img/logos/ku_logo.png",
+    "logo": "assets/img/logos/KU_logo.png",
     "logoAlt": "Khalifa University logo",
     "members": [
       {
@@ -58,7 +58,7 @@
   },
   {
     "university": "Qatar University (QU)",
-    "logo": "assets/img/logos/qu_logo.png",
+    "logo": "assets/img/logos/QU_logo.png",
     "logoAlt": "Qatar University logo",
     "members": [
       {
