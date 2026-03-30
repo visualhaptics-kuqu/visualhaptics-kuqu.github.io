@@ -202,6 +202,44 @@ a {
   border-bottom: 1px solid var(--line);
 }
 
+.use-case-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 20px;
+}
+
+.use-case-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.use-case-text h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.use-case-text p {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: rgba(200, 215, 235, 0.55);
+  max-width: 90%;
+}
+
+.use-case-image img {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  border-radius: 0;
+  object-fit: cover;
+}
+
 .university-heading {
   display: flex;
   align-items: center;
