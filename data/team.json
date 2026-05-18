@@ -53,6 +53,16 @@
           "Vidya Sudevan received the B.Tech. degree in Electrical and Electronics Engineering and the M.Tech. degree in Instrumentation and Control Systems from the University of Calicut, India, in 2012 and 2016, respectively. She obtained her Ph.D. in Engineering, with a concentration in Robotics, from Khalifa University, Abu Dhabi, United Arab Emirates, in 2025.",
           "She is currently a Post Doctoral Fellow at Khalifa University, where she previously served as a Research Associate from 2016 to 2021. Her research focuses on neuromorphic computing, spiking neural networks, multimodal perception, and localization for robotic applications, with particular emphasis on operation in harsh and challenging environments. She has authored publications in peer-reviewed journals and conference proceedings in her field and serves as a reviewer for leading venues, including ICRA, IROS, RAL, ICAR, and ITU journals and conferences."
         ]
+      },
+      {
+        "name": "Mr. Ihsan M. Fauzan",
+        "photo": "assets/img/team/Ihsan.jpg",
+        "photoAlt": "Mr. Ihsan M. Fauzan",
+        "title": "PhD Student",
+        "bio": [
+          "Ihsan M. Fauzan is currently pursuing a Ph.D. in Robotics at Khalifa University, Abu Dhabi, United Arab Emirates. He earned his B.Sc. in Engineering Physics in 2024 and his M.Sc. in Instrumentation and Control in 2025 from Institut Teknologi Bandung, Indonesia. His current research is part of the Visual-Haptics project, which focuses on remote robot operation, inspection, and physical intervention in challenging environments, and reflects his broader interests in robotics, instrumentation and control, autonomous systems, and intelligent perception-driven operation.",
+          "In addition to his graduate studies, he has been involved in research, teaching, and engineering activities across academic and applied settings. He has contributed to projects related to autonomous landing and obstacle avoidance for quadrotor systems, served as a research assistant at the Center of Instrumentation Technology and Automation, and supported students through roles as a teaching assistant, laboratory assistant, and tutor. His technical background includes programming, embedded and control systems, computer vision and machine learning, Internet of Things technologies, and computer-aided design, reflecting a multidisciplinary approach to robotics research and development."
+        ]
       }
     ]
   },
